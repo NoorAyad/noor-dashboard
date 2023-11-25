@@ -1,0 +1,84 @@
+.table {
+  margin-top: 40px;
+}
+
+.table table {
+  width: 100%;
+}
+
+.table table thead {
+  background-color: #eee;
+}
+
+.table table thead th {
+  text-align: left;
+  padding: 8px;
+}
+
+.table table tbody td {
+  text-align: left;
+  padding: 8px;
+}
+
+
+.actions {
+  display: flex;
+}
+
+.deleteBtn:hover,
+.editBtn:hover {
+  opacity: 0.8;
+}
+
+.deleteBtn:active,
+.editBtn:active {
+  opacity: 0.1;
+}
+
+.editBtn {
+  border: none;
+  height: 32px;
+  padding: 0px 14px;
+  border-radius: 8px;
+  background: rgb(2, 0, 0);
+  border: 1px solid #eee;
+  transition: 0.3s;
+  color: white;
+}
+
+.btnmodal {
+  border-style: none;
+  padding: 5px 10px;
+  display: inline;
+  background-color: black;
+  color: #FFFFFF;
+  border-radius: 6px;
+  font-size: larger;
+  margin-right: 0px;
+}
+
+.srhbtn {
+  border-style: none;
+  padding: 5px 10px;
+  display: inline;
+  border: 1px solid #000000;
+  outline: none;
+  background-color: #F6F6F6;
+  color: #080000cb;
+  border-radius: 15px;
+  font-size: larger;
+  font-family: Arial, FontAwesome
+}
+
+.tid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+/* just for me  */
+.srhbtn::-webkit-input-placeholder {
+  color: #A5A5A5;
+}
